@@ -4,6 +4,4 @@ from .views import RestaurantViewSet
 
 router = routers.SimpleRouter()
 router.register('', RestaurantViewSet)
-urlpatterns = [
-    router.urls,
-]
+urlpatterns = router.urls
