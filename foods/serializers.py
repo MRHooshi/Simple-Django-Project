@@ -15,3 +15,4 @@ class BasicFoodSerializer(serializers.ModelSerializer):
     class Meta:
         model = Food
         fields = ['name', 'price', 'is_available']
+
